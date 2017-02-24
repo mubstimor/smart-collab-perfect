@@ -1,0 +1,194 @@
+[INFO] [ca693acf-d8ff-47ac-8570-45d0da05951b] [2017-02-24 10:51:28 GMT] Running setup: users
+[INFO] [6ef7359e-2634-44c1-b666-f52e44c32e71] [2017-02-24 10:51:28 GMT] createStatement: CREATE TABLE IF NOT EXISTS users (`uniqueID` varchar(255) NOT NULL, `username` text, `password` text, `facebookID` text, `googleID` text, `firstname` text, `lastname` text, `email` text, PRIMARY KEY (`uniqueID`));
+[ERROR] [6924dbe9-edc8-454d-a422-313d35434682] [2017-02-24 10:51:29 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[ERROR] [548dd829-ec48-4a06-befe-29905292e826] [2017-02-24 10:51:29 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [14dc44fc-486c-4454-ad87-a8b8c734ebdd] [2017-02-24 10:51:29 GMT] Error msg: error("MySQL server has gone away")
+[INFO] [18200b5a-67b3-44a4-8270-0463d35576ef] [2017-02-24 10:51:29 GMT] Running setup: tokens
+[INFO] [e3cb5409-9ef0-4323-944a-f2e1e74c5c96] [2017-02-24 10:51:29 GMT] createStatement: CREATE TABLE IF NOT EXISTS tokens (`token` varchar(255) NOT NULL, `userid` text, `created` int, `updated` int, `idle` int, PRIMARY KEY (`token`));
+[ERROR] [8315ae18-9a69-4a3b-8b71-33b8872cd1cd] [2017-02-24 10:51:29 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[ERROR] [d894b711-b301-4f7c-b959-8972923f8def] [2017-02-24 10:51:29 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [aa1eda3b-07e5-4016-ac68-0ff923bffafa] [2017-02-24 10:51:29 GMT] Error msg: error("MySQL server has gone away")
+[INFO] [d520ef21-bc46-4308-9f6d-c150b2778539] [2017-02-24 10:52:43 GMT] Running setup: users
+[INFO] [864dbbf7-b3c8-43b4-9163-beb49c445f5d] [2017-02-24 10:52:43 GMT] createStatement: CREATE TABLE IF NOT EXISTS users (`uniqueID` varchar(255) NOT NULL, `username` text, `password` text, `facebookID` text, `googleID` text, `firstname` text, `lastname` text, `email` text, PRIMARY KEY (`uniqueID`));
+[ERROR] [9145a8c7-5db9-43e5-b3e9-bc8fcbddc90b] [2017-02-24 10:52:43 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[ERROR] [194d4426-6bea-4352-b0fd-7d0f34c0f46a] [2017-02-24 10:52:43 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [73fc3ee5-0958-4ff2-beb5-77a66ad98b2f] [2017-02-24 10:52:43 GMT] Error msg: error("MySQL server has gone away")
+[INFO] [ae250f18-75db-4f4f-b0f1-ae64d033d270] [2017-02-24 10:52:43 GMT] Running setup: tokens
+[INFO] [160ff7e3-1c3c-4d7e-9fc9-c94029689f38] [2017-02-24 10:52:43 GMT] createStatement: CREATE TABLE IF NOT EXISTS tokens (`token` varchar(255) NOT NULL, `userid` text, `created` int, `updated` int, `idle` int, PRIMARY KEY (`token`));
+[ERROR] [a1e58a09-ce41-457c-b182-29c9221efbfe] [2017-02-24 10:52:43 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[ERROR] [dbb6ce94-9412-4f9b-bf8e-ac4a45848877] [2017-02-24 10:52:43 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [7888a487-e5e4-493a-96f9-b025f6854441] [2017-02-24 10:52:43 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [46624d80-446a-4914-8781-75f50c963084] [2017-02-24 10:53:03 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[DEBUG] [d123bf82-6772-4667-b94f-869422eb2c8c] [2017-02-24 10:53:03 GMT] StORM Debug: SELECT COUNT(*) AS counter FROM tokens  WHERE token = ? : fIY0GO5gTueZi8l1JG0rHQ
+[ERROR] [2627719d-43c3-4590-bd70-6eb8cd9cbc95] [2017-02-24 10:53:03 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [a5d63fbd-2c27-4d4b-888d-d2723b8a2e54] [2017-02-24 10:53:03 GMT] Error msg: error("error(\"MySQL server has gone away\")")
+[ERROR] [59ab90ff-aa05-47c1-98f3-3829221f8067] [2017-02-24 10:53:03 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[DEBUG] [bf363e38-e7c9-44fc-916d-3ab6ca3f7f66] [2017-02-24 10:53:03 GMT] StORM Debug: SELECT COUNT(*) AS counter FROM tokens  WHERE token = ? : fIY0GO5gTueZi8l1JG0rHQ
+[ERROR] [38d670f9-9b51-4838-955a-0d130a801e28] [2017-02-24 10:53:03 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [36afcd57-9b09-41cc-ad71-00bbe3fcd3c3] [2017-02-24 10:53:03 GMT] Error msg: error("error(\"MySQL server has gone away\")")
+[ERROR] [b9989e5a-fc19-4061-9a00-538c98e8fa13] [2017-02-24 10:53:03 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[DEBUG] [3dfc0168-cd57-4c56-b624-9cdf94ce1995] [2017-02-24 10:53:03 GMT] StORM Debug: SELECT COUNT(*) AS counter FROM tokens  WHERE token = ? : fIY0GO5gTueZi8l1JG0rHQ
+[ERROR] [eedce7d3-ae95-4c30-9ac8-f1da376e257b] [2017-02-24 10:53:03 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [62858601-e978-49c5-b3f7-ec3b4a308679] [2017-02-24 10:53:03 GMT] Error msg: error("error(\"MySQL server has gone away\")")
+[ERROR] [f61ba1a5-7746-4051-a47f-0ac107458629] [2017-02-24 10:53:08 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[DEBUG] [05a651e1-9efd-4fdf-b2d7-8a3209906485] [2017-02-24 10:53:08 GMT] StORM Debug: SELECT COUNT(*) AS counter FROM tokens  WHERE token = ? : fIY0GO5gTueZi8l1JG0rHQ
+[ERROR] [5185720a-0ac0-4154-b5b9-e9f3bc6ca645] [2017-02-24 10:53:08 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [0151742b-6b61-4eff-bc50-cc3d8e4d41fa] [2017-02-24 10:53:08 GMT] Error msg: error("error(\"MySQL server has gone away\")")
+[ERROR] [f3148da4-df3f-4f44-b53a-d135373dd2ff] [2017-02-24 10:53:09 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[DEBUG] [9dd1ff2f-c11d-43f7-8c56-00f967f660d0] [2017-02-24 10:53:09 GMT] StORM Debug: SELECT COUNT(*) AS counter FROM tokens  WHERE token = ? : fIY0GO5gTueZi8l1JG0rHQ
+[ERROR] [1ce17842-4ce3-4a4b-bc97-530ad1f28bfd] [2017-02-24 10:53:09 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [3342440e-768a-41db-bfcd-72a7365ea04e] [2017-02-24 10:53:09 GMT] Error msg: error("error(\"MySQL server has gone away\")")
+[ERROR] [97e36896-2670-4564-9d18-8040d9f4dd11] [2017-02-24 10:53:28 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[DEBUG] [5089e079-0c47-46c0-b2b2-9159570066e7] [2017-02-24 10:53:28 GMT] StORM Debug: SELECT COUNT(*) AS counter FROM tokens  WHERE token = ? : fIY0GO5gTueZi8l1JG0rHQ
+[ERROR] [8dfdc863-7c3d-4576-a017-c3f39a7ff3dc] [2017-02-24 10:53:28 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [3818690d-c96a-437a-b5ac-f49c2ff9b853] [2017-02-24 10:53:28 GMT] Error msg: error("error(\"MySQL server has gone away\")")
+[ERROR] [de53502e-fd9d-48c3-8092-a31abae92e33] [2017-02-24 10:53:28 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[DEBUG] [26784b31-0f99-46d2-83a8-8e7afa299a9a] [2017-02-24 10:53:28 GMT] StORM Debug: SELECT COUNT(*) AS counter FROM users  WHERE username = ? : tim
+[ERROR] [5ff78663-a424-400a-bdf6-7c263b8021a9] [2017-02-24 10:53:28 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [aa6f7f00-f02b-45ed-a1da-b9acf14f4059] [2017-02-24 10:53:28 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[DEBUG] [1f7bea62-9ef0-4939-a212-6e652e9cd924] [2017-02-24 10:53:28 GMT] StORM Debug: SELECT COUNT(*) AS counter FROM tokens  WHERE token = ? : fIY0GO5gTueZi8l1JG0rHQ
+[ERROR] [082144a5-7738-44fb-a759-db18251dc5d3] [2017-02-24 10:53:28 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [71cf9d5a-9489-467e-8fd6-81cb4ee92ece] [2017-02-24 10:53:28 GMT] Error msg: error("error(\"MySQL server has gone away\")")
+[ERROR] [43c04c51-e382-4e7b-82c4-920eaea5488d] [2017-02-24 10:53:32 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[DEBUG] [7d87be60-74c3-4ae0-a983-bc5fd5c939b3] [2017-02-24 10:53:32 GMT] StORM Debug: SELECT COUNT(*) AS counter FROM tokens  WHERE token = ? : fIY0GO5gTueZi8l1JG0rHQ
+[ERROR] [41a0c05a-596f-4a16-91b2-92e066d47d29] [2017-02-24 10:53:32 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [77b10f10-ac81-4351-9309-03321b929aa3] [2017-02-24 10:53:32 GMT] Error msg: error("error(\"MySQL server has gone away\")")
+[ERROR] [07f14f94-6aee-4e17-b407-ecd6c22a151f] [2017-02-24 10:53:32 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[DEBUG] [890dd587-2f79-42b2-96e4-76c7d11053d6] [2017-02-24 10:53:32 GMT] StORM Debug: SELECT COUNT(*) AS counter FROM tokens  WHERE token = ? : fIY0GO5gTueZi8l1JG0rHQ
+[ERROR] [e66894f4-fbb2-473c-8295-fa56021c25a7] [2017-02-24 10:53:32 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [4b84cdec-c477-4f5c-9a9d-611792581dd5] [2017-02-24 10:53:32 GMT] Error msg: error("error(\"MySQL server has gone away\")")
+[ERROR] [f80c099f-172e-4615-bd27-d91dd3d7ce2b] [2017-02-24 10:53:38 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[DEBUG] [0bac0039-e4dc-42f6-8cda-a4f92f91b590] [2017-02-24 10:53:38 GMT] StORM Debug: SELECT COUNT(*) AS counter FROM tokens  WHERE token = ? : fIY0GO5gTueZi8l1JG0rHQ
+[ERROR] [39dde81d-e411-4ba7-a844-d97a729609ac] [2017-02-24 10:53:38 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [0d355ed5-bcf0-4a75-b472-5035b5f01705] [2017-02-24 10:53:38 GMT] Error msg: error("error(\"MySQL server has gone away\")")
+[ERROR] [e93e3ca2-9ff4-4cbb-8953-21ce8751b5fd] [2017-02-24 10:53:38 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[DEBUG] [18925ea3-c48a-44d3-833a-6fef549d619c] [2017-02-24 10:53:38 GMT] StORM Debug: SELECT COUNT(*) AS counter FROM users  WHERE username = ? : tim
+[ERROR] [b8f54b21-dbc1-4deb-8f50-01b50227eb36] [2017-02-24 10:53:38 GMT] Error msg: error("MySQL server has gone away")
+[INFO] [0ea96a51-7f7d-462a-9841-00dfd423a928] [2017-02-24 10:53:39 GMT] insert statement: INSERT INTO users (uniqueID,username,password,facebookID,googleID,firstname,lastname,email) VALUES(?,?,?,?,?,?,?,?), params: ["Gb46EgYmBx_sRIZN1dksqA", "tim", "$2a$10$A3VCE107C1YtMRXCSIksoulTqZM.6R9oHdnD0cYxYLxbeO43vorTi", "", "", "", "", ""]
+[ERROR] [a2889e48-c8b2-40da-b63e-c75956587cbd] [2017-02-24 10:53:39 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[ERROR] [535d04ff-b876-450a-b765-5fa38f34d240] [2017-02-24 10:53:39 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [4e194874-9000-4b52-b504-34c08814f0aa] [2017-02-24 10:53:39 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [81ce08d2-1753-431e-b26b-743a2fa92ad1] [2017-02-24 10:53:39 GMT] Error msg: error("error(\"MySQL server has gone away\")")
+[ERROR] [7e31bce8-77a5-42de-80c5-8b7aba2718d8] [2017-02-24 10:53:39 GMT] Error msg: error("error(\"error(\\\"MySQL server has gone away\\\")\")")
+[ERROR] [b241d791-b0bc-493b-840d-aa511f62404a] [2017-02-24 10:53:39 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[DEBUG] [bd0bd20f-eace-40ca-8614-b97af5f95df8] [2017-02-24 10:53:39 GMT] StORM Debug: SELECT COUNT(*) AS counter FROM users  WHERE username = ? : tim
+[ERROR] [027c34e6-9b84-4922-8f1d-08a81ca0a347] [2017-02-24 10:53:39 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [9546b2e6-436c-4707-8a03-069393cceee4] [2017-02-24 10:53:39 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[DEBUG] [a29893b6-b710-46da-a719-3ca20fb93749] [2017-02-24 10:53:39 GMT] StORM Debug: SELECT COUNT(*) AS counter FROM tokens  WHERE token = ? : fIY0GO5gTueZi8l1JG0rHQ
+[ERROR] [3959d382-631a-43c3-a36a-c581a8d27938] [2017-02-24 10:53:39 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [0f3c377f-cd4e-4485-8a79-cb0bd80b7704] [2017-02-24 10:53:39 GMT] Error msg: error("error(\"MySQL server has gone away\")")
+[ERROR] [4867e283-1278-41c0-9250-c471d8de4797] [2017-02-24 10:53:46 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[DEBUG] [b75c2815-9ee4-48e0-b7aa-4a2c6dd3267e] [2017-02-24 10:53:46 GMT] StORM Debug: SELECT COUNT(*) AS counter FROM tokens  WHERE token = ? : fIY0GO5gTueZi8l1JG0rHQ
+[ERROR] [397f3103-870c-4dfe-8574-f7dea74ffac6] [2017-02-24 10:53:46 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [a0a1258f-bb64-4dae-b9e1-6aed8fab57f1] [2017-02-24 10:53:46 GMT] Error msg: error("error(\"MySQL server has gone away\")")
+[ERROR] [6aa8ffb5-9914-4957-b4ff-a061df782a74] [2017-02-24 10:53:46 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[DEBUG] [7e42b6a5-6683-40fb-a3cf-382b4988268c] [2017-02-24 10:53:46 GMT] StORM Debug: SELECT COUNT(*) AS counter FROM users  WHERE username = ? : jack
+[ERROR] [cb24465d-9ca1-472a-8949-c3e1bd628da1] [2017-02-24 10:53:46 GMT] Error msg: error("MySQL server has gone away")
+[INFO] [b8b42c23-9e00-47e7-81e9-21b6e7fb7160] [2017-02-24 10:53:48 GMT] insert statement: INSERT INTO users (uniqueID,username,password,facebookID,googleID,firstname,lastname,email) VALUES(?,?,?,?,?,?,?,?), params: ["lt2O7FknhqhKPsKQ9aFoow", "jack", "$2a$10$kEpfJvSpHu9du2x2QcbLWOpCqtvfrF.w2kdpdmMcxnyVXwTxSwyKi", "", "", "", "", ""]
+[ERROR] [0b695711-f375-4579-aecd-3c7719ce5870] [2017-02-24 10:53:48 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[ERROR] [d64cc9cb-3e86-4c39-977c-22b172e66c04] [2017-02-24 10:53:48 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [ce3b38fe-85af-4fc7-86d4-d8e22f8d3077] [2017-02-24 10:53:48 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [4a0a432c-801f-4aa6-af64-4de7b59c2431] [2017-02-24 10:53:48 GMT] Error msg: error("error(\"MySQL server has gone away\")")
+[ERROR] [0ad3e42b-6f35-4c67-b4d5-413550211d56] [2017-02-24 10:53:48 GMT] Error msg: error("error(\"error(\\\"MySQL server has gone away\\\")\")")
+[ERROR] [f7d095f2-8140-4739-af46-df396b1703a3] [2017-02-24 10:53:48 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[DEBUG] [9099c308-e351-4172-8886-a215b2741299] [2017-02-24 10:53:48 GMT] StORM Debug: SELECT COUNT(*) AS counter FROM users  WHERE username = ? : jack
+[ERROR] [e1edade8-38b2-4b2d-8a12-ae6d45fffd34] [2017-02-24 10:53:48 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [ab4c88cd-3b4d-4d92-9138-4896f7206628] [2017-02-24 10:53:48 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[DEBUG] [a17fc83e-2eb2-429e-951e-d3abc58fff59] [2017-02-24 10:53:48 GMT] StORM Debug: SELECT COUNT(*) AS counter FROM tokens  WHERE token = ? : fIY0GO5gTueZi8l1JG0rHQ
+[ERROR] [9dc5db7b-36d6-4b45-8bdb-8bca56aada1b] [2017-02-24 10:53:48 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [50cdef8d-acc4-4869-8f51-fbb6807f827b] [2017-02-24 10:53:48 GMT] Error msg: error("error(\"MySQL server has gone away\")")
+[ERROR] [a3bbdeab-e7dc-449b-9856-8f08285b0c64] [2017-02-24 10:53:50 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[DEBUG] [48019250-fba0-4791-9304-90e2b25bf2ba] [2017-02-24 10:53:50 GMT] StORM Debug: SELECT COUNT(*) AS counter FROM tokens  WHERE token = ? : fIY0GO5gTueZi8l1JG0rHQ
+[ERROR] [8235dc1b-3924-4e52-87d8-b5ba90e070fc] [2017-02-24 10:53:50 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [d7ef34de-7028-44b6-be31-5616f2a5d870] [2017-02-24 10:53:50 GMT] Error msg: error("error(\"MySQL server has gone away\")")
+[ERROR] [4478ab53-1419-4861-87f3-c95858cec6e1] [2017-02-24 10:53:50 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[DEBUG] [3c87d37a-2d10-4508-8722-6533cd0361e2] [2017-02-24 10:53:50 GMT] StORM Debug: SELECT COUNT(*) AS counter FROM tokens  WHERE token = ? : fIY0GO5gTueZi8l1JG0rHQ
+[ERROR] [966532fd-a576-4479-8eee-24a7e718d08e] [2017-02-24 10:53:50 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [f75aba60-2934-4ded-9133-0d7bee1ededa] [2017-02-24 10:53:50 GMT] Error msg: error("error(\"MySQL server has gone away\")")
+[ERROR] [724d4069-4291-44f4-bcac-05212088933a] [2017-02-24 10:53:52 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[DEBUG] [0d850717-e7b8-414f-a380-4188abad574d] [2017-02-24 10:53:52 GMT] StORM Debug: SELECT COUNT(*) AS counter FROM tokens  WHERE token = ? : fIY0GO5gTueZi8l1JG0rHQ
+[ERROR] [ce07f529-96ec-43e5-af86-ac54af473323] [2017-02-24 10:53:52 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [83bb1b07-aec8-4f24-9337-180cdc821d48] [2017-02-24 10:53:52 GMT] Error msg: error("error(\"MySQL server has gone away\")")
+[ERROR] [dd15714e-f044-4364-9db2-8d3b21552598] [2017-02-24 10:53:52 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[DEBUG] [a13f1147-7e63-4b0d-a4ab-11e72859334a] [2017-02-24 10:53:52 GMT] StORM Debug: SELECT COUNT(*) AS counter FROM tokens  WHERE token = ? : fIY0GO5gTueZi8l1JG0rHQ
+[ERROR] [3ee74ad9-9344-488d-a2c6-f360fcda1eb6] [2017-02-24 10:53:52 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [8d8c0835-e993-4fa8-bd49-c0b766417149] [2017-02-24 10:53:52 GMT] Error msg: error("error(\"MySQL server has gone away\")")
+[ERROR] [d0160ce5-b0f9-4784-8735-8fb9fed33c9b] [2017-02-24 10:53:57 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[DEBUG] [cb82f737-048a-4380-805c-b48814e0e2cd] [2017-02-24 10:53:57 GMT] StORM Debug: SELECT COUNT(*) AS counter FROM tokens  WHERE token = ? : fIY0GO5gTueZi8l1JG0rHQ
+[ERROR] [2c026bef-0e42-44ba-b5c9-bbed6ca41e69] [2017-02-24 10:53:57 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [a74032d1-a385-48d4-b12c-7db77b7bc312] [2017-02-24 10:53:57 GMT] Error msg: error("error(\"MySQL server has gone away\")")
+[ERROR] [edc22806-b193-4683-81ac-f5d0dcd69f19] [2017-02-24 10:53:57 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[DEBUG] [e4098d99-f90e-479c-bfac-a2cd478d29d9] [2017-02-24 10:53:57 GMT] StORM Debug: SELECT COUNT(*) AS counter FROM users  WHERE username = ? : tim
+[ERROR] [eca275ab-2a3d-4525-bff1-7b135e037cc0] [2017-02-24 10:53:57 GMT] Error msg: error("MySQL server has gone away")
+[INFO] [81eda1fd-b4e5-4093-9b5a-62b4de28fc71] [2017-02-24 10:53:59 GMT] insert statement: INSERT INTO users (uniqueID,username,password,facebookID,googleID,firstname,lastname,email) VALUES(?,?,?,?,?,?,?,?), params: ["laq7abqB5De8HOZTrPxNvQ", "tim", "$2a$10$qMIXp1Un9mZXatyhgF4w9eJuEivn3AlNKDPTLSUx71CQqo4HOCSoe", "", "", "", "", ""]
+[ERROR] [06a26e62-b178-4e3f-b26e-473f9726a559] [2017-02-24 10:53:59 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[ERROR] [fca98564-057f-412d-94fc-45ba15da9cfe] [2017-02-24 10:53:59 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [e4de14e8-7c67-4bad-9a3d-e72a6a440548] [2017-02-24 10:53:59 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [a360445f-c522-4356-ad24-15d815a07e63] [2017-02-24 10:53:59 GMT] Error msg: error("error(\"MySQL server has gone away\")")
+[ERROR] [703f09f5-f110-47b4-8970-8e290203dca9] [2017-02-24 10:53:59 GMT] Error msg: error("error(\"error(\\\"MySQL server has gone away\\\")\")")
+[ERROR] [2a06eb8d-d251-4014-bfc9-90436d1fb841] [2017-02-24 10:53:59 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[DEBUG] [1fc2ed0d-3095-4ccb-a994-d64206087c05] [2017-02-24 10:53:59 GMT] StORM Debug: SELECT COUNT(*) AS counter FROM users  WHERE username = ? : tim
+[ERROR] [9ebef5fe-64d0-4b4d-a321-acc18248000c] [2017-02-24 10:53:59 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [b9a36f4f-7c1d-41d9-83e9-27d197209a84] [2017-02-24 10:53:59 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[DEBUG] [915e29a6-aab3-4128-9e64-89824316b7d9] [2017-02-24 10:53:59 GMT] StORM Debug: SELECT COUNT(*) AS counter FROM tokens  WHERE token = ? : fIY0GO5gTueZi8l1JG0rHQ
+[ERROR] [8d254b63-b71c-4b07-a3f6-e4aa8230bb09] [2017-02-24 10:53:59 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [3b0dc6c3-6946-4083-a4f5-f4bd81883c21] [2017-02-24 10:53:59 GMT] Error msg: error("error(\"MySQL server has gone away\")")
+[ERROR] [04925b66-8e0f-4dda-b49d-fbdde374ce8f] [2017-02-24 10:54:01 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[DEBUG] [7916bc4d-a71f-43f3-ae89-47069ecb0700] [2017-02-24 10:54:01 GMT] StORM Debug: SELECT COUNT(*) AS counter FROM tokens  WHERE token = ? : fIY0GO5gTueZi8l1JG0rHQ
+[ERROR] [c3abde6e-2e03-4685-a425-333e00a1399a] [2017-02-24 10:54:01 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [3155ee32-2c8f-4bc9-9101-56a558f872fe] [2017-02-24 10:54:01 GMT] Error msg: error("error(\"MySQL server has gone away\")")
+[ERROR] [e63e4f8a-f091-40cc-ac3e-c3dfc979bd82] [2017-02-24 10:54:01 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[DEBUG] [7d462046-3f4e-4703-a2c6-536cf7689b0f] [2017-02-24 10:54:01 GMT] StORM Debug: SELECT COUNT(*) AS counter FROM tokens  WHERE token = ? : fIY0GO5gTueZi8l1JG0rHQ
+[ERROR] [0a20e970-a39f-4c39-92c4-49458d768373] [2017-02-24 10:54:01 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [b5cb187a-6826-4acd-bad9-aafb6179648b] [2017-02-24 10:54:01 GMT] Error msg: error("error(\"MySQL server has gone away\")")
+[ERROR] [5a95055e-7157-4703-a3a6-a0ebf173e214] [2017-02-24 10:54:07 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[DEBUG] [726b6681-4b72-4493-88fb-48cf6e07f0f8] [2017-02-24 10:54:07 GMT] StORM Debug: SELECT COUNT(*) AS counter FROM tokens  WHERE token = ? : fIY0GO5gTueZi8l1JG0rHQ
+[ERROR] [4b0953e3-df32-4d35-b841-efff69fee91c] [2017-02-24 10:54:07 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [84469d2b-5c06-4ce0-a179-ba4b5a17ca66] [2017-02-24 10:54:07 GMT] Error msg: error("error(\"MySQL server has gone away\")")
+[ERROR] [735491a2-de84-429b-8027-a9ff70f561d4] [2017-02-24 10:54:07 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[DEBUG] [d305e21d-648a-4004-b5cc-5407d40d8541] [2017-02-24 10:54:07 GMT] StORM Debug: SELECT COUNT(*) AS counter FROM users  WHERE username = ? : tim
+[ERROR] [d969087e-81ac-487c-ad06-074bdd1928f8] [2017-02-24 10:54:07 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [f271b871-c986-45f4-aafe-3557f250dd5b] [2017-02-24 10:54:07 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[DEBUG] [5408e6c3-91f3-4b87-816d-9081ff3b30ba] [2017-02-24 10:54:07 GMT] StORM Debug: SELECT COUNT(*) AS counter FROM tokens  WHERE token = ? : fIY0GO5gTueZi8l1JG0rHQ
+[ERROR] [cf03615d-7438-4d48-94df-7f20e1ececb2] [2017-02-24 10:54:07 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [4426a895-d99a-4596-b1d9-9b843ebe272a] [2017-02-24 10:54:07 GMT] Error msg: error("error(\"MySQL server has gone away\")")
+[INFO] [988e74f8-9e0c-42f7-86dc-4e7ee0091e4e] [2017-02-24 21:55:08 GMT] Running setup: users
+[INFO] [c343147c-ccb5-4b5f-ac43-cd9c00f156b4] [2017-02-24 21:55:08 GMT] createStatement: CREATE TABLE IF NOT EXISTS users (`uniqueID` varchar(255) NOT NULL, `username` text, `password` text, `facebookID` text, `googleID` text, `firstname` text, `lastname` text, `email` text, PRIMARY KEY (`uniqueID`));
+[ERROR] [a07085a0-62fb-42af-9694-1c479204d8ef] [2017-02-24 21:55:08 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[ERROR] [17e66b35-d053-46de-b4b5-54e7a73d0f06] [2017-02-24 21:55:08 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [4e192a72-e5b3-4dae-a211-9518e984e522] [2017-02-24 21:55:08 GMT] Error msg: error("MySQL server has gone away")
+[INFO] [fcf22785-a8cc-4f3b-9347-407646defc7d] [2017-02-24 21:55:08 GMT] Running setup: tokens
+[INFO] [43b73396-1a27-47f5-8553-54d0f6349f02] [2017-02-24 21:55:08 GMT] createStatement: CREATE TABLE IF NOT EXISTS tokens (`token` varchar(255) NOT NULL, `userid` text, `created` int, `updated` int, `idle` int, PRIMARY KEY (`token`));
+[ERROR] [d023b5c7-697e-4428-b9f0-e925818fb614] [2017-02-24 21:55:08 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[ERROR] [778d4ee7-fe04-4a74-9870-7ba18bff930b] [2017-02-24 21:55:08 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [87f8c958-7263-415c-9e27-6809fd228461] [2017-02-24 21:55:08 GMT] Error msg: error("MySQL server has gone away")
+[INFO] [7c4c8caf-dd12-4b22-9718-02eb22e9b491] [2017-02-24 21:55:59 GMT] Running setup: users
+[INFO] [bcac390b-2272-428e-8935-40bf3efd69f4] [2017-02-24 21:55:59 GMT] createStatement: CREATE TABLE IF NOT EXISTS users (`uniqueID` varchar(255) NOT NULL, `username` text, `password` text, `facebookID` text, `googleID` text, `firstname` text, `lastname` text, `email` text, PRIMARY KEY (`uniqueID`));
+[ERROR] [02adcb28-da0b-42f2-9a02-a3e8e2b49775] [2017-02-24 21:55:59 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[ERROR] [80b98829-b2f6-4c70-9029-32675ee21b80] [2017-02-24 21:55:59 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [58782426-65a1-496f-9fe2-0909d088d3f4] [2017-02-24 21:55:59 GMT] Error msg: error("MySQL server has gone away")
+[INFO] [ee73a903-4217-481e-a609-39db25ceb050] [2017-02-24 21:55:59 GMT] Running setup: tokens
+[INFO] [d64f43a8-ed2a-4e3b-af15-eb60ae1c4b11] [2017-02-24 21:55:59 GMT] createStatement: CREATE TABLE IF NOT EXISTS tokens (`token` varchar(255) NOT NULL, `userid` text, `created` int, `updated` int, `idle` int, PRIMARY KEY (`token`));
+[ERROR] [8d6e8efa-4fc2-4333-a529-119c79bf75d2] [2017-02-24 21:55:59 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[ERROR] [2ea0ed45-bd5f-483b-82a4-f7b116cbaf9a] [2017-02-24 21:55:59 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [869603ec-7b2f-4209-a4d3-c80d98c9892d] [2017-02-24 21:55:59 GMT] Error msg: error("MySQL server has gone away")
+[INFO] [fc144eac-26d6-4398-ba6d-febfb2dcf7ca] [2017-02-24 21:56:16 GMT] Running setup: users
+[INFO] [11273f6a-8e45-4e3b-b893-ad3953fc000d] [2017-02-24 21:56:16 GMT] createStatement: CREATE TABLE IF NOT EXISTS users (`uniqueID` varchar(255) NOT NULL, `username` text, `password` text, `facebookID` text, `googleID` text, `firstname` text, `lastname` text, `email` text, PRIMARY KEY (`uniqueID`));
+[ERROR] [91cb6916-5414-4e64-b1f9-56cba99ca4bb] [2017-02-24 21:56:16 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[ERROR] [13e76db5-6e50-4156-8f32-136217a00b23] [2017-02-24 21:56:16 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [dfb2c1b7-3680-4aee-94c3-d6394ba4a688] [2017-02-24 21:56:16 GMT] Error msg: error("MySQL server has gone away")
+[INFO] [495804e0-bbf1-475c-91e9-acfddf9923fc] [2017-02-24 21:56:16 GMT] Running setup: tokens
+[INFO] [7d0aba5d-4a33-416d-9ea0-5ff708475a7a] [2017-02-24 21:56:16 GMT] createStatement: CREATE TABLE IF NOT EXISTS tokens (`token` varchar(255) NOT NULL, `userid` text, `created` int, `updated` int, `idle` int, PRIMARY KEY (`token`));
+[ERROR] [49b9faca-907b-465c-ae8c-b321c54533ee] [2017-02-24 21:56:16 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[ERROR] [80ef8f8f-ef6c-452a-8aa3-7a57eb7f3e49] [2017-02-24 21:56:16 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [5385cdd7-7b6f-4566-8357-e9a1c4ffe548] [2017-02-24 21:56:16 GMT] Error msg: error("MySQL server has gone away")
+[INFO] [dbeebc8e-1f7c-4213-ac08-47adb33110e0] [2017-02-24 22:59:55 GMT] Running setup: users
+[INFO] [b367d10d-038a-4bd8-8f3f-1bf8c58b11f1] [2017-02-24 22:59:55 GMT] createStatement: CREATE TABLE IF NOT EXISTS users (`uniqueID` varchar(255) NOT NULL, `username` text, `password` text, `facebookID` text, `googleID` text, `firstname` text, `lastname` text, `email` text, PRIMARY KEY (`uniqueID`));
+[ERROR] [07d4d681-b6d2-41c8-9707-f53240588db6] [2017-02-24 22:59:55 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[ERROR] [f9d67982-45d0-4abe-9912-36bcffab0a60] [2017-02-24 22:59:55 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [1b411773-1306-4d92-adfe-a3cb2823c673] [2017-02-24 22:59:55 GMT] Error msg: error("MySQL server has gone away")
+[INFO] [3b148b63-7edc-475e-8748-d75d827f4cf2] [2017-02-24 22:59:55 GMT] Running setup: tokens
+[INFO] [6a8455eb-7c93-444e-9a3a-dcaf362f1245] [2017-02-24 22:59:55 GMT] createStatement: CREATE TABLE IF NOT EXISTS tokens (`token` varchar(255) NOT NULL, `userid` text, `created` int, `updated` int, `idle` int, PRIMARY KEY (`token`));
+[ERROR] [cf0f309f-46f9-46e4-ab2e-43d89809dca2] [2017-02-24 22:59:55 GMT] MySQL connection error: Can't connect to local MySQL server through socket '' (2)
+[ERROR] [40eaa2b1-3691-4a27-b2c6-ff98d8581671] [2017-02-24 22:59:55 GMT] Error msg: error("MySQL server has gone away")
+[ERROR] [e81e59ea-284e-4e51-81aa-8697598a4550] [2017-02-24 22:59:55 GMT] Error msg: error("MySQL server has gone away")
